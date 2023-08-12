@@ -1,0 +1,98 @@
+/* basic fonts*/
+@font-face {
+    font-family: 'Neodex';
+    src: url('../fonts/Neodex.woff2') format('woff2'),
+        url('../fonts/Neodex.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.font{
+    font-family: 'Neodex', cursive;
+    font-weight: normal;
+
+}
+.style-p{
+    font-family: 'Smokum', cursive;
+    font-size: 18px;
+}
+/* basic fonts end*/
+
+
+/* basic div*/
+
+
+.contain{
+    width: 1000px;
+margin-left: auto;
+margin-right: auto;
+background-color: azure;
+}
+.contain h1{
+    color: blueviolet;
+text-align: center;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.menu
+.main_menu{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;    
+}
+.main_menu li a{
+   text-decoration: none;
+   padding: 10px 20px ;
+   background-color: blue;
+   color: rgb(241, 218, 5);
+   font-size: 18px;
+
+}
+
+.contain p{
+    font-size: 14px;
+    padding: 10px;
+}
+.contain .row{
+   display: flex;
+   gap: 20px;
+   justify-content: space-around;
+}
+
+.contain .row .col p{
+    text-align: justify;
+}
+
+.contain button{
+    padding: 10px 20px ;
+   background-color: blue;
+   color: rgb(241, 218, 5);
+   font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* bootstrap_Practice start*/
+.bootstrap_h1{
+    font-family: 'Smokum', cursive;
+}
+.bootstrap_p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+
+.blog_section .position-sticky{
+    position: sticky;
+    top: 0;
+    right: 0;
+}
+/* bootstrap_Practice end*/
